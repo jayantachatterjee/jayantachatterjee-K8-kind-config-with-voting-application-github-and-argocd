@@ -24,6 +24,6 @@ jobs:
       run: |
         python -m unittest discover -s tests  
 
-    -name: Build Docker image
+    - name: Build Docker image
       run: |
         docker build /vote --file /vote/Dockerfile -t voting-app:latest /vote
