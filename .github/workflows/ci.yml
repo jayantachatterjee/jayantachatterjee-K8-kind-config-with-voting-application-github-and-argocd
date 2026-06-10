@@ -23,8 +23,7 @@ jobs:
       run: |
         pytest tests/
 
-
-  build:
+  docker:
     runs-on: ubuntu-latest
 
     steps:
